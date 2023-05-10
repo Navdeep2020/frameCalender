@@ -1,0 +1,11 @@
+framework module frameCalender {
+  umbrella header "frameCalender.h"
+
+  export *
+  module * { export * }
+}
+
+module frameCalender.Swift {
+  header "frameCalender-Swift.h"
+  requires objc
+}

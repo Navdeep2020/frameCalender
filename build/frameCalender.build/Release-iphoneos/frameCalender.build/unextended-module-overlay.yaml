@@ -1,0 +1,14 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/navsingh/Desktop/CreateFrameworkForiOS/starter/2-Framework/frameCalender/build/Release-iphoneos/frameCalender.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/navsingh/Desktop/CreateFrameworkForiOS/starter/2-Framework/frameCalender/build/frameCalender.build/Release-iphoneos/frameCalender.build/unextended-module.modulemap",
+    }]
+  }]
+}

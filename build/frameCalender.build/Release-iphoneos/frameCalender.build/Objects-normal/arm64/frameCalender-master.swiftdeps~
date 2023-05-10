@@ -1,0 +1,15 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "c17cd922d1a041f305d1a80700418a1d7cec567b07ce2a51fb978d3f0809409d"
+build_start_time: [1683613199, 607738971]
+build_end_time: [1683613199, 634364128]
+inputs:
+  ? "/Users/navsingh/Desktop/CreateFrameworkForiOS/starter/2-Framework/frameCalender/frameCalender/Controller/CalendarPickerViewController.swift"
+  : !dirty [1683600287, 932729482]
+  "/Users/navsingh/Desktop/CreateFrameworkForiOS/starter/2-Framework/frameCalender/frameCalender/Model/Day.swift": !dirty [1593196186, 0]
+  "/Users/navsingh/Desktop/CreateFrameworkForiOS/starter/2-Framework/frameCalender/frameCalender/Model/MonthMetadata.swift": !dirty [1591758706, 0]
+  ? "/Users/navsingh/Desktop/CreateFrameworkForiOS/starter/2-Framework/frameCalender/frameCalender/View/CalendarDateCollectionViewCell.swift"
+  : !dirty [1597124304, 0]
+  ? "/Users/navsingh/Desktop/CreateFrameworkForiOS/starter/2-Framework/frameCalender/frameCalender/View/CalendarPickerFooterView.swift"
+  : !dirty [1591749026, 0]
+  ? "/Users/navsingh/Desktop/CreateFrameworkForiOS/starter/2-Framework/frameCalender/frameCalender/View/CalendarPickerHeaderView.swift"
+  : !dirty [1591912348, 0]

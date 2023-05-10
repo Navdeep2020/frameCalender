@@ -1,0 +1,10 @@
+framework module frameCalender {
+  umbrella header "frameCalender.h"
+
+  export *
+  module * { export * }
+}
+
+module frameCalender.__Swift {
+  exclude header "frameCalender-Swift.h"
+}
