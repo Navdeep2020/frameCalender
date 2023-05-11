@@ -13,7 +13,12 @@ public class TestframeWork {
         
     }
     
-    public func getData(from url: String) {
+    
+    public func printVersion() {
+        print("my first sdk function")
+    }
+    
+    private func getData(from url: String) {
         let task = URLSession.shared.dataTask(with: URL(string: url)!, completionHandler: {data, response, error in
             
             guard let data = data, error == nil else {
@@ -39,11 +44,10 @@ public class TestframeWork {
         
         getData(from: url)
     }
-
-    public func printVersion() {
-        print("my first sdk function")
-    }
         
+    public func printji(){
+        print("ko")
+    }
 }
 
 struct Users: Codable {
