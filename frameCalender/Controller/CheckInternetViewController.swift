@@ -7,16 +7,16 @@
 
 import UIKit
 
-class CheckInternetViewController: UIViewController {
+public class CheckInternetViewController: UIViewController {
 
     let reachability = try! Reachability()
-    override func viewDidLoad() {
+    public override func viewDidLoad() {
         super.viewDidLoad()
         
     }
     
 
-    override func viewWillAppear(_ animated: Bool) {
+    public override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         DispatchQueue.main.async {
             self.reachability.whenReachable = { reachability in
